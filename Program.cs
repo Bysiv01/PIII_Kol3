@@ -19,10 +19,9 @@ namespace PIII_Kol3
             {
                 int iloscMiesiecy = int.Parse(Math.Floor(wplata / 34.99).ToString());
                 double reszta = wplata - (iloscMiesiecy * 34.99);
-                data.AddMonths(iloscMiesiecy);
+                var pozostalailoscmiesiecy = data.AddMonths(iloscMiesiecy);
                 Console.WriteLine(reszta);
-                Console.WriteLine(data);
-                Console.WriteLine(iloscMiesiecy);
+                Console.WriteLine($"zostalo {iloscMiesiecy} miesiecy");
             }
             ObliczSubskrybcje(data, wplata);
             
