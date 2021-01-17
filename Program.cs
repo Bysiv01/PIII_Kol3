@@ -13,15 +13,16 @@ namespace PIII_Kol3
         static void Main(string[] args)
         {
             var data = new DateTime(2021,1,17);
-
-            void ObliczSubskrybcje(DateTime data, double wplata = 300)
+            double wplata = 3000;
+            void ObliczSubskrybcje(DateTime data, double wplata)
             {
-                int iloscMiesiecy = int.Parse(Math.Floor(wplata / 34.99).ToString());
+                int iloscMiesiecy = int.Parse(Math.Floor(wplata / 34.99).ToString())
                 double reszta = wplata - (iloscMiesiecy * 34.99);
                 data.AddMonths(iloscMiesiecy);
                 Console.WriteLine(reszta);
                 Console.WriteLine(data);
             }
+            ObliczSubskrybcje(data, wplata);
             
             string text = "jakis tekst <XML>";
             if (text.Contains("<") & text.Contains(">"))
