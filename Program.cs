@@ -14,13 +14,15 @@ namespace PIII_Kol3
         {
             var data = new DateTime(2021,1,17);
             double wplata = 3000;
+            
             void ObliczSubskrybcje(DateTime data, double wplata)
             {
-                int iloscMiesiecy = int.Parse(Math.Floor(wplata / 34.99).ToString())
+                int iloscMiesiecy = int.Parse(Math.Floor(wplata / 34.99).ToString());
                 double reszta = wplata - (iloscMiesiecy * 34.99);
                 data.AddMonths(iloscMiesiecy);
                 Console.WriteLine(reszta);
                 Console.WriteLine(data);
+                Console.WriteLine(iloscMiesiecy);
             }
             ObliczSubskrybcje(data, wplata);
             
