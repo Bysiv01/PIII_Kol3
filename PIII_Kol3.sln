@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIII_Kol3", "PIII_Kol3\PIII_Kol3.csproj", "{02660AA6-FA6A-4506-B7B4-7AB37F22C350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02660AA6-FA6A-4506-B7B4-7AB37F22C350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02660AA6-FA6A-4506-B7B4-7AB37F22C350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02660AA6-FA6A-4506-B7B4-7AB37F22C350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02660AA6-FA6A-4506-B7B4-7AB37F22C350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A46E131-7675-4B46-9C4C-A13AD65F55BC}
+	EndGlobalSection
+EndGlobal
